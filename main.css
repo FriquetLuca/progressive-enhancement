@@ -1,0 +1,69 @@
+body
+{
+    max-width: 90%;
+    margin: auto;
+    background-color: aqua;
+    background: -webkit-linear-gradient(40deg, rgb(86, 126, 77), rgb(174, 13, 13));
+    background: linear-gradient(40deg, rgb(86, 126, 77), rgb(174, 13, 13));
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: right;
+    background-size: cover;
+}
+p
+{
+    font-family: serif;
+    letter-spacing: 1px;
+    font-size: medium;
+    color: rgb(1, 1, 27);
+}
+a
+{
+    color: rgb(0, 47, 255);
+}
+a:hover
+{
+    color:rgb(194, 41, 214);
+}
+a:visited
+{
+    color: rgb(39, 122, 128);
+}
+blockquote
+{
+    width: 50%;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 150%;
+    background-color: rgb(83, 83, 83);
+    border-left: solid;
+    border-color: firebrick;
+    font-style: italic;
+}
+.villagers
+{
+    border-color: rgb(2, 240, 22);
+}
+.farmer
+{
+    border-color: rgb(60, 131, 27);
+}
+header > h1
+{
+    background-color: yellow;
+}
+.good, .bad
+{
+    text-transform: capitalize;
+}
+.good
+{
+    color: green;
+}
+.bad
+{
+    color: red;
+}
