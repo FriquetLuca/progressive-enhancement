@@ -1,3 +1,8 @@
+@font-face
+{
+    font-family: "CMU Serif";
+    src: url(cmunrm.ttf);
+}
 body
 {
     max-width: 90%;
@@ -10,6 +15,7 @@ body
     background-position: bottom;
     background-position: right;
     background-size: cover;
+    font-family: "CMU Serif";
 }
 p
 {
@@ -66,4 +72,37 @@ header > h1
 .bad
 {
     color: red;
+}
+ul
+{
+    width: 270px;
+}
+#people-1
+{
+    background-image: url('https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/bien.png?token=GHSAT0AAAAAABWJIOTKN473YJR32COKFCW2YWD7GKA');
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position-x: right;
+}
+#people-2
+{
+    background-image: url('https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/mal.png?token=GHSAT0AAAAAABWJIOTKFSRYJRAH52LCTYCAYWD7G3A');
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position-x: right;
+}
+#people-3
+{
+    background-image: url('https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/chat.png?token=GHSAT0AAAAAABWJIOTKR6VMMOVHVZHIYCGAYWD7D4A');
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position-x: right;
+}
+#touchShoulder
+{
+    float: left;
+}
+#touchShoulderText
+{
+    position: relative;
 }
